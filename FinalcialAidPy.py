@@ -16,7 +16,7 @@ def coursera_login():
         user.send_keys('dineshchunduspecial@gmail.com')
         print('No issue with email')
         password = browser.find_element_by_id('passwordInput-input')
-        password.send_keys('Laxmi7Srinu579')
+        password.send_keys('Guessit')
         print('No issue with password')
         login = browser.find_element_by_xpath(
             '/html/body/div[3]/div/div/span/div[2]/div/div[3]/div/div/div/div[2]/div/div[1]/form/div[1]/button')
